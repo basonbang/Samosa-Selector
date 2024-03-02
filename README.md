@@ -1,4 +1,4 @@
-#Gameplay
+# Gameplay
 The game starts out with the user having zero samosas. When the user clicks the Big Samosa, it initially produces one samosa per click. Then,
 
 - When the user has 10 samosas, they can buy a Double Stuffed upgrade, which produces double the amount of samosas per click.
