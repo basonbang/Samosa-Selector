@@ -1,17 +1,7 @@
-## Running React on Repl.it
+#Gameplay
+The game starts out with the user having zero samosas. When the user clicks the Big Samosa, it initially produces one samosa per click. Then,
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
-
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- When the user has 10 samosas, they can buy a Double Stuffed upgrade, which produces double the amount of samosas per click.
+- When the user has 100 samosas, they can buy the Party Pack upgrade, which produces 5x the amount of samosas per click.
+- When the user has 1000 samosas, they can buy the Full Feast upgrade, which produces 10x the amount of samosas per click.
+The game continues on forever and the user can continue to gain gigantic amounts of samosas. Yum!
